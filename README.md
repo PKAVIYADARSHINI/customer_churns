@@ -1,7 +1,9 @@
 Customer Churn Prediction Using XGBoost
+
 This project aims to predict customer churn using a machine learning model based on the XGBoost algorithm. The dataset used in this project contains various features related to customer behavior and demographics, which are used to predict whether a customer will churn or not.
 
-Table of Contents
+Table of Contents:
+
 Project Overview
 Dataset
 Dependencies
@@ -13,6 +15,7 @@ Conclusion
 Usage
 License
 Project Overview
+
 Customer churn is a critical issue for companies, especially in highly competitive industries. Predicting churn allows businesses to take proactive measures to retain customers. In this project, an XGBoost model is developed to predict churn based on customer data.
 
 Dataset
@@ -40,6 +43,7 @@ Model Training
 An initial XGBoost model is trained on the training data. The model achieves an accuracy of 92% on the test dataset.
 
 Hyperparameter Tuning
+
 Hyperparameter tuning is performed using GridSearchCV to optimize the model parameters, including max_depth, learning_rate, gamma, scale_pos_weight, and more. The best parameters are:
 
 max_depth: 5
@@ -51,9 +55,11 @@ colsample_bytree: 1
 With these tuned parameters, the final model is retrained, achieving an accuracy of 92.54% on the test dataset.
 
 Results
+
 The final model accuracy on the test dataset is 92.54%. This indicates a high level of precision in predicting customer churn, making the model valuable for business applications.
 
 Conclusion
+
 The XGBoost model provides a robust solution for predicting customer churn with high accuracy. The model can help businesses identify at-risk customers and take necessary actions to retain them, ultimately improving customer satisfaction and profitability.
 
 Usage
